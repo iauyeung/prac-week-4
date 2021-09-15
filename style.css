@@ -1,0 +1,103 @@
+body {
+    font-family: helvetica, sans-serfi;
+    background: #FDFFCB;
+    color: #002775;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #2470FF;
+}
+
+.topnav p {
+    text-align: center;
+}
+
+.topnav img {
+    float: left;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #002775;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #6BBCFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    }
+
+.topnav a.active {
+    background-color: #6BBCFF;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.searchbar input[type="text"] {
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 363px;
+    font-size: 15px;
+}
+
+.topnav input[type="text"] {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+}
+}
+.topnav input[type="text"] {
+    border: 1px solid;
+}
+#search_button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    background-color: #FFD800;
+    border: none;
+    border-radius: 7px;
+    margin: 10px 0 10px 400px;
+}
+.Filter {
+    margin: 5px 5px 50px 10px;
+    color: #002775;
+}
+
+.item_listing {
+    width: 170px;
+}
+.item_img {
+    border: 3px solid;
+    color: #FFD800;
+    padding-bottom: 120px;
+}
+.item_info {
+    background-color: #2470FF;
+    margin-top: -10px;
+    padding: 10px;
+}
+.result {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding: 0 10px 0 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    flex: 0 0 50px;
+    width: 100%;
+    text-align: center;
+}
